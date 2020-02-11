@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App {
+  font-family: "Baloo", cursive;
+  text-align: center;
+}
+
+.ticTacToe {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  box-shadow: 2px 3px;
+}
+.cell {
+  border: 2px solid #333;
+  box-sizing: border-box;
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
+}
+button {
+  background-color: rgb(41, 202, 41);
+  border: 0px;
+  padding: 3px 20px;
+  color: white;
+  margin-bottom: 15px;
+
+  border-radius: 3px;
+  outline: none;
+}
+button:active {
+  background-color: #808000;
+}
+.gameWrap {
+  position: relative;
+}
+
+.alert {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(21, 165, 33);
+}
